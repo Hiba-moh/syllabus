@@ -40,3 +40,39 @@
   margin-left: 6px;
   padding-right: 16px;
 }
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--ifm-color-info);
+  border-radius: 8px;
+}
+
+.demo__console {
+  position: relative;
+  list-style: none;
+  color: rgb(191, 199, 213);
+  background: rgb(41, 45, 62);
+  border-radius: 8px;
+  padding: 1.25rem 0.5rem 0.5rem;
+  width: 80%;
+}
+
+.demo__console:before {
+  content: "console";
+  text-transform: uppercase;
+  font-size: 0.55rem;
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+}
+
+.demo__console > li {
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.demo__console > li:before {
+  content: "➤";
+  margin-right: 0.4em;
+}
