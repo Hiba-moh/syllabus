@@ -4,6 +4,8 @@ title: React - Week 2
 sidebar_label: Lesson
 ---
 
+import { ExerciseADemo } from './demos/exercise-a.js'
+
 ---
 
 Click [here](./learning-objectives) to see the Learning Objectives for this lesson.
@@ -108,6 +110,7 @@ Think of it like this: we give the event handler to React, so that React can cal
 
 | Exercise A (estimate: 10 min)                                                                                                             |
 | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| In this exercise we will attempt to build this component: <DemoWrapper showConsole><ExerciseADemo /></DemoWrapper>                        |
 | 1. Open the `pokedex` React application from last week and open the `Logo.js` file.                                                       |
 | 2. Add a function named `logWhenClicked` within the `Logo` component. (Hint: look at the example above).                                  |
 | 3. In the `logWhenClicked` function, `console.log` a message (it doesn't matter what the message is).                                     |
