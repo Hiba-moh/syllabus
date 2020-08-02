@@ -25,15 +25,15 @@ function DemoConsole() {
     };
   });
 
-  return (
-    <ul className="demo__console">
-      {logs.length ? (
-        logs.map((log, index) => {
+  if (logs.length) {
+    return (
+      <ul className="demo__console">
+        {logs.map((log, index) => {
           return <li key={index}>{log}</li>;
-        })
-      ) : (
-        <li />
-      )}
-    </ul>
-  );
+        })}
+      </ul>
+    );
+  } else {
+    return null;
+  }
 }
