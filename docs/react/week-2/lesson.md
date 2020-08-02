@@ -4,7 +4,7 @@ title: React - Week 2
 sidebar_label: Lesson
 ---
 
-import { ExerciseADemo } from './demos/exercise-a.js'
+import { ExerciseADemo } from './demos/ExerciseA.js'
 
 ---
 
