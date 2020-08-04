@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 export default function DemoWrapper(props) {
   return (
     <div className="demo">
-      {props.children}
+      <div className="demo__wrapper">{props.children}</div>
       {props.showConsole ? <DemoConsole /> : null}
     </div>
   );
