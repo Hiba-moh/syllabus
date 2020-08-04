@@ -61,6 +61,7 @@
 
 .demo__wrapper {
   width: 80%;
+  margin-top: 1rem;
 }
 
 .demo__console {
@@ -73,7 +74,7 @@
 .demo__console:before {
   content: "console";
   text-transform: uppercase;
-  font-size: 0.55rem;
+  font-size: calc(var(--ifm-font-size-base) * 0.55);
   position: absolute;
   top: 0.5em;
   left: 0.5em;
