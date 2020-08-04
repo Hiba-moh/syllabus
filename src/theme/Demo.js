@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-export default function DemoWrapper(props) {
+export default function Demo(props) {
   return (
     <div className="demo">
       <div className="demo__wrapper">{props.children}</div>
