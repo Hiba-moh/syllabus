@@ -47,16 +47,27 @@
   align-items: center;
   border: 1px solid var(--ifm-color-info);
   border-radius: 8px;
+  position: relative;
+}
+
+.demo:before {
+  content: "demo";
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  font-size: calc(var(--ifm-font-size-base) * 0.65);
+  text-transform: uppercase;
+}
+
+.demo__wrapper {
+  width: 80%;
 }
 
 .demo__console {
   position: relative;
-  list-style: none;
-  color: rgb(191, 199, 213);
-  background: rgb(41, 45, 62);
-  border-radius: 8px;
-  padding: 1.25rem 0.5rem 0.5rem;
   width: 80%;
+  padding: 1.25rem var(--ifm-pre-padding) var(--ifm-pre-padding);
+  list-style: none;
 }
 
 .demo__console:before {
